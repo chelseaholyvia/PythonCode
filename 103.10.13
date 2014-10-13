@@ -5,3 +5,11 @@ elif lines < 20000 :
 	print ("medium")
 else :
 	print ("large")
+	
+lines = 250
+if lines > 200 :
+	print ("small")
+elif lines > 300 :
+	print ("medium")
+else :
+	print ("large")
