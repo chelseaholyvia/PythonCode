@@ -1,0 +1,112 @@
+print ("我的第一隻Python程式")
+
+name = input ("What is your name?")
+print ('Hi,%s.'%name)
+
+print (type(3))
+print (1+1)
+print (4+5/5,25+63/6**2)
+print (2+(1-3)*4)
+
+my_name = "Chelsea Holyvia"
+print (my_name)
+
+my_age = 17
+print (my_age)
+
+my_age = my_age + 20
+print (my_age)
+
+magic_pill = 15
+print (my_age - magic_pill)
+
+my_grand_dad = 60
+
+print (my_grand_dad - 2 * magic_pill)
+
+
+temp_Fahrenheit = 250
+temp_Celsius = 5.0 / 9.0 * (temp_Fahrenheit - 32)
+print (temp_Celsius)
+
+"Hard Times" [3]
+"Panda" [0]
+
+x = "blue"
+y = "pink"
+z = x
+
+print (x, y, z)
+z = y 
+print (x, y, z)
+x = z 
+print (x, y, z)
+
+route = 369
+print (route, type(route))
+
+route = "North"
+print (route, type(route))
+
+
+x = [1,3,5,7,9]
+type(x)
+x[1]
+x[0]
+
+y = ["Indonesia","Taiwan","Paris","USA"]
+z=y[0]
+type(z)
+
+len("one")
+len("one",)
+len(("one",))
+len([1,3,5,"pause",5])
+len("automatically")
+
+x = ["koala",35,-2,"awkward",250]
+x.append("more")
+print (x)
+type(x)
+
+list.append(x, "extra")
+print (x)
+type(x)
+
+x[1] = "xx"
+x
+
+x[0:3]
+
+a = ["R", 3, None]
+b = ["R", 3, None]
+a is b
+b = a
+a is b
+
+a = "Indonesia"
+b = None
+a is not None
+b is not None
+a is not None, b is not None
+
+a = 2
+b = 6
+a == b
+a <= b, a != b, a >= b, a > b
+
+a = "many paths"
+b = "many paths"
+a is b
+a == b
+
+a = 5
+0 <= a <= 10
+
+"3" > 4
+3 > 4
+int("3") > 4
+
+p = (4, "frog", 9, -33, 6)
+2 in p
+"dog" not in p
